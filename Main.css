@@ -4,6 +4,7 @@
 }
 html{
     font-family: OpenSans;
+    letter-spacing: 2px;
 }
 header{
     background-color: black;
@@ -22,11 +23,21 @@ body{
     align-items: center;
     margin: auto;
 }
+.header_wrapper .line{
 
+    background-color: gray;
+    height: 60%;
+    border-left: 3px solid gray;
+}
 .header_wrapper a{
     color: white;
     font-size: 24px;
     font-weight: normal;
+    text-decoration: none;
+}
+
+.header_wrapper a:hover{
+    color: gray;
 }
 
 .header_wrapper h6{
@@ -40,9 +51,11 @@ body{
 }
 .firstpage-wrapper{
     height: 100%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: auto;
 
 }
 
@@ -64,7 +77,7 @@ body{
 }
 
 .firstpage .text-container p{
-    width: 50%;
+    width: 70%;
     font-size: 16px;
     font-style: italic;
     color: rgb(122,122,122);
@@ -110,6 +123,7 @@ body{
     width: 240px;
     height: 240px;
     background-color: white;
+    box-shadow: 4px 4px 4px 4px  grey;
 }
 
 .white-box-wrapper{
@@ -232,13 +246,14 @@ body{
     display: inline-block; /* Строчно-блочный элемент */
     background: white; /* Серый цвет фона */
     color: black; /* Белый цвет текста */
-    padding: 0.3rem 1.5rem; /* Поля вокруг текста */
+    padding: 0.3rem 6.5rem; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 10px;
     margin-top: 10px;
+    border-radius: 5px;
     letter-spacing: 2px;
-    width: 100px;
+    width: 200px;
     text-align: center;
+    margin: auto;
 }
 
 .fourthpage-wrapper .btn:hover{
