@@ -65,6 +65,10 @@
     color: black;
 }
 
+.secondpage-wrapper a{
+    text-decoration: none;
+}
+
 .secondpage-wrapper h3:hover{
     color: gray;
 }
