@@ -1,50 +1,3 @@
-@font-face {
-    font-family: OpenSans; /* Имя шрифта */
-    src: url(fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
-}
-html{
-    font-family: OpenSans;
-    letter-spacing: 2px;
-}
-header{
-    background-color: black;
-}
-
-body{
-    margin: 0;
-    width: 100%;
-}
-.header_wrapper{
-    height: 120px;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-.header_wrapper .line{
-
-    background-color: gray;
-    height: 60%;
-    border-left: 3px solid gray;
-}
-.header_wrapper a{
-    color: white;
-    font-size: 24px;
-    font-weight: normal;
-    text-decoration: none;
-}
-
-.header_wrapper a:hover{
-    color: gray;
-}
-
-.header_wrapper h6{
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-}
 .firstpage{
     height: 600px;
     width: 100%;
@@ -202,7 +155,7 @@ body{
 .fourthpage{
     height: 450px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(200, 200, 202);
 }
 
 .fourthpage-wrapper{
@@ -212,7 +165,7 @@ body{
 }
 
 .fourthpage-wrapper h2{
-    color: white;
+    color: black;
     letter-spacing: 2px;
     font-size: 35px;
 }
@@ -220,10 +173,10 @@ body{
 .fourthpage-wrapper input{
     width: 400px;
     height: 30px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgb(200, 200, 202);
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-width: 2px;
     border-bottom: 0px;
     margin-top: 1px;
@@ -233,10 +186,10 @@ body{
 .fourthpage-wrapper textarea{
     width: 400px;
     height: 120px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgb(200, 200, 202);
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-width: 2px;
     margin-top: 1px;
     outline: none;
@@ -244,12 +197,10 @@ body{
 
 .fourthpage-wrapper .btn{
     display: inline-block; /* Строчно-блочный элемент */
-    background: white; /* Серый цвет фона */
-    color: black; /* Белый цвет текста */
+    background: black;
+    color: white; /* Белый цвет текста */
     padding: 0.3rem 6.5rem; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
-    margin-top: 10px;
-    border-radius: 5px;
     letter-spacing: 2px;
     width: 200px;
     text-align: center;
@@ -260,7 +211,4 @@ body{
     background-color: gray;
 }
 
-footer{
-    height: 100px;
-    background: gray;
-}
+
